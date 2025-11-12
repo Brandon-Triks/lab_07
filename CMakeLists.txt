@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 4.0)
+project(untitled3)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(untitled3 main.cpp
+        header.h
+        task1.cpp
+        task2.cpp
+        task3.cpp)
