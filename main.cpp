@@ -19,7 +19,7 @@ int main() {
     //saveToFile2(filename, v3);
     //loadFromFile2(filename,v4);
 
-    //task2
+    //task3
     Student student1,student2,student3,student4;
     student1 = {"Alex",2,{
                 {"Math",Excellent},{"IT",Excellent},{"Phys",Excellent}}
@@ -39,8 +39,7 @@ int main() {
     groups["B"] = {student2,student3};
     groups["C"] = {student4};
 
-    saveToFile3(filename,groups);
+    //saveToFile3(filename,groups);
+    //loadFromFile3(filename,outGroups);
 
-    loadFromFile3(filename,outGroups);
-    std::cout << outGroups["C"][0].RecordBook["IT"];
 }
